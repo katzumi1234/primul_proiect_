@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+body
+{
+margin:0;
+background-image: url(tree.jpg);
+}
+.bar
+{
+width: 100%;
+background-color: #ff7200 ;
+height:60px;
+}
+
+ul
+{
+    list-style:none;
+    padding:0;
+    margin:0;
+    position:absolute;
+
+}
+ul li
+{
+    float:left;
+    margin-top:20px;
+
+}
+ul li a
+{
+    width:150px;
+    color:white;
+    display:block;
+    text-decoration: none;
+    font-size:20px;
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    font-family: Century Gothic;
+    font-weight:bold;
+}
+a:hover
+{
+    background-color:#00ff00;
+
+}
+ul li ul
+{
+    background: #ff7200;
+}
+ul li ul li
+{
+    float:none;
+
+}
+ul li ul 
+{
+    display: none;
+}
+ul li:hover ul
+{
+    display:block;
+
+}
+</style>
+</head>
+<body>
+    <div class = "meniu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Projects</a>
+            <ul>
+                <li><a href="#">Kotlin project</a></li>
+                <li><a href="#">Site</a></li>
+            </ul>
+            
+            </li>
+            <li><a href="#">Contacts</a>
+                <ul>
+                    <li><a href="#">Phone</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </li>   
+
+        </ul>
+    </div>
+</body>
+
+</html>
